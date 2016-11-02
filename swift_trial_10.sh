@@ -1,10 +1,11 @@
-swift 10_numbers.swift
-swift 10_numbers.swift
-swift 10_numbers.swift
-swift 10_numbers.swift
-swift 10_numbers.swift
-swift 10_numbers.swift
-swift 10_numbers.swift
-swift 10_numbers.swift
-swift 10_numbers.swift
-swift 10_numbers.swift
+xcrun -sdk macosx swiftc 10_numbers.swift
+./10_numbers
+./10_numbers
+./10_numbers
+./10_numbers
+./10_numbers
+./10_numbers
+./10_numbers
+./10_numbers
+./10_numbers
+./10_numbers
