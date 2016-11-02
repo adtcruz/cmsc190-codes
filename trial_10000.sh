@@ -1,0 +1,10 @@
+swift 10000_numbers.swift
+swift 10000_numbers.swift
+swift 10000_numbers.swift
+swift 10000_numbers.swift
+swift 10000_numbers.swift
+swift 10000_numbers.swift
+swift 10000_numbers.swift
+swift 10000_numbers.swift
+swift 10000_numbers.swift
+swift 10000_numbers.swift
