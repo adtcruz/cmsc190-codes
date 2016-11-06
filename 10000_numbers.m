@@ -21,5 +21,5 @@ int main(){
 
   CFTimeInterval e_time = (CACurrentMediaTime() - start);
 
-  printf("Execution completed %lf seconds\n", e_time);
+  printf("%lf\n", e_time);
 }
