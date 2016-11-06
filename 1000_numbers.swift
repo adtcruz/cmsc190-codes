@@ -18,4 +18,4 @@ for i in 1...nums.count-1{
     }
 }
 
-print("Execution completed in \(CACurrentMediaTime() - start) seconds")
+print("\(CACurrentMediaTime() - start)")
