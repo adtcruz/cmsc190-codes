@@ -135,6 +135,4 @@ root = tree.insertValue(root:root,valueToInsert:8)
 root = tree.insertValue(root:root,valueToInsert:5)
 root = tree.insertValue(root:root,valueToInsert:1)
 
-
-
 print("\(CACurrentMediaTime() - start)")
