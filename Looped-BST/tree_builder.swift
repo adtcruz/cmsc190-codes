@@ -50,7 +50,7 @@ class Node {
             }
           }
         }
-        }
+      }
       while(temp?.parent != nil){
         temp = temp?.parent
       }
