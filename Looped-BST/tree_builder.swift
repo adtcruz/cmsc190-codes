@@ -57,6 +57,40 @@ class Node {
     }
     return temp!
   }
+
+  func searchValue(root:Node?, valueToSearch:Int) -> Bool {
+    var temp = root
+
+    if (root == nil){
+      return false
+    }
+    else{
+      while(temp != nil){
+        if var tempVal = temp?.value {
+          if(tempVal == valueToSearch){
+            return true
+          }
+          else if (valueToSearch < tempVal){
+            if(temp?.left == nil){
+              return false
+            }
+            else {
+              temp = temp?.left
+            }
+          }
+          else if (valueToSearch > tempVal){
+            if(temp?.right == nil){
+              return false
+            }
+            else {
+              temp = temp?.right
+            }
+          }
+        }
+      }
+    }
+    return false
+  }
 }
 
 var root:Node?
