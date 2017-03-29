@@ -21,6 +21,7 @@
     int partProd = 0;
     partProd = [self multiplier_f3: 0 j: j i: i dimensionM: dimensionM partProd: partProd mat1: mat1 mat2: mat2];
     results[i][j] = partProd;
+    [self multiplier_f2:(j+1) i:i dimensionN: dimensionN dimensionM: dimensionM mat1: mat1 mat2: mat2 results: results];
   }
 }
 
